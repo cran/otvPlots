@@ -1,4 +1,7 @@
 # R Package for Variable Level Monitoring
+
+[R CRAN link](https://CRAN.R-project.org/package=otvPlots)
+
 An important part of model building is the "proc eyeball" sanity check. It can
 also be a painful part of the process, when you are the data scientist tasked 
 with creating and checking 10,000 or more near-identical plots. The `otvPlots`
@@ -57,8 +60,13 @@ The order of variables in the CSV files is the same as in the PDF file.
      global prevalence in a descending order.
 
 # Installation
-Open an R (or RStudio) console and run the 
-following code:
+Open an R (or RStudio) console and install the package from CRAN
+
+```
+install.packages("otvPlots")
+```
+
+Alternatively, if you prefer to install from GitHub:
 
 1. Install the `devtools` package if not yet. You only need to do this once, so
 feel free to skip this step if the `devtools` is already installed. You will be
@@ -197,6 +205,7 @@ Any Contributor to the project must accept and sign a CLA indicating agreement t
 [Link to Individual CLA](https://docs.google.com/forms/d/19LpBBjykHPox18vrZvBbZUcK6gQTj7qv1O5hCduAZFU/viewform)
 
 [Link to Corporate CLA ](https://docs.google.com/forms/d/e/1FAIpQLSeAbobIPLCVZD_ccgtMWBDAcN68oqbAJBQyDTSAQ1AkYuCp_g/viewform)
+
 
 This project adheres to the 
 [Open Source Code of Conduct](https://developer.capitalone.com/single/code-of-conduct/).

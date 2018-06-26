@@ -1,6 +1,6 @@
 Package: otvPlots
 Title: Over Time Variable Plots
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("Rebecca", "Payne", role = "aut"),
     person("Zoey", "Zhu", role = c("aut")),
@@ -8,8 +8,8 @@ Authors@R: c(
 		person("Capital One", role = "cph"))
 Description: Enables automated visualization of variable 
     distribution and changes over time for predictive model building.
-    Computes summary statistics aggregated by time for 
-    large datasets, and creates plots for variable level monitoring.  
+    It efficiently computes summary statistics aggregated by time for 
+    large datasets, and create plots for variable level monitoring.  
 Depends: R (>= 3.2.0)
 Imports: data.table (>= 1.9.6), ggplot2 (>= 2.1.0), grid (>= 3.2.0),
         gridExtra (>= 2.2.1), Hmisc (>= 3.17-4), moments, quantreg (>=
@@ -21,11 +21,11 @@ URL: https://github.com/capitalone/otvPlots
 BugReports: https://github.com/capitalone/otvPlots/issues
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-10-13 22:18:00 UTC; Yingbo
+Packaged: 2018-06-26 03:18:18 UTC; oft240
 Author: Rebecca Payne [aut],
   Zoey Zhu [aut],
   Yingbo Li [aut, cre],
   Capital One [cph]
 Maintainer: Yingbo Li <yingbo.li@capitalone.com>
 Repository: CRAN
-Date/Publication: 2017-10-14 14:06:32 UTC
+Date/Publication: 2018-06-26 19:59:09 UTC

@@ -13,7 +13,6 @@
 # 
 # See the License for the specific language governing permissions and limitations under the License. 
 
-
 #' Direct marketing campaigns of a Portuguese banking institution
 #'
 #' The marketing campaigns were based on phone calls.

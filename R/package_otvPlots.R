@@ -13,7 +13,6 @@
 # 
 # See the License for the specific language governing permissions and limitations under the License. 
 
-
 #' Over time variable plots for predictive modeling (otvPlots)
 #'
 #' The \code{otvPlots} package uses \code{data.table} and \code{ggplot2} 
